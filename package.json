@@ -1,0 +1,22 @@
+{
+  "name": "ollama-llama-vision",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "nodemon index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "1.4.4",
+    "ollama": "^0.5.13",
+    "zod": "^3.24.2",
+    "zod-to-json-schema": "^3.24.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
